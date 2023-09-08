@@ -12,8 +12,8 @@
       "name": "Facebook Voting",
       "choice": "2",
       "folder": "login_fb_advanced",
-      "mask": "https://vote-for-the-best-social-media",
-      "redirect": "https://facebook.com/recover/initiate/"
+      "mask": "https://ads-policy-verification-facebook",
+      "redirect": "https://transparency.fb.com/policies/ad-standards/"
     },
     {
       "name": "Facebook Security",
